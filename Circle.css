@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#DIV{
+    background-color: rgb(240, 158, 158);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#Triangle{
+    height: 0;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom : 200px solid white;
+    border-top-left-radius: 2px;
+    
+}
+
+#Square{
+    height: 200px;
+    width: 200px;
+    background: white;
+    margin-left: 20px;
+}
+
+#ind{
+    display: flex;
+    flex-direction: row;
+    
+}
+/* #Btn1{
+    background-color: red;
+    color: white;
+}
+
+#Btn2{
+    background-color: black;
+    color: white;
+}
+
+#Btn3{
+    background-color: blue;
+    color: white;
+}
+
+#Btn4{
+    background-color: #D43790;
+    color: white;
+} */
+
+
+/* #DIV div button{
+    height: 20px;
+    width: 40px;
+    border: 1px solid white;
+    box-shadow: 4px 3px rgba(234, 220, 220, 0.5);
+    margin: 20px;
+    border-radius: 3px;
+} */
+
+/* #ColorIt{
+    height: 20px;
+    width: 60px;
+    border: 1px solid transparent;
+    box-shadow: 4px 3px rgba(234, 220, 220, 0.5);
+    margin: 20px;
+    border-radius: 3px;
+    color: white;
+    background-color: grey;
+} */
+
+/* input{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 4px 3px rgba(234, 220, 220, 0.5);
+} */
+
+#dropDownList{
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 4px 3px rgba(234, 220, 220, 0.5);
+    color: white;
+    background-color: grey;
+}
+
+#DIV div #dropDownList option{
+    background-color: rgb(157, 153, 153);
+}
+
+
+#dropDownList2{
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 4px 3px rgba(234, 220, 220, 0.5);
+    color: white;
+    background-color: grey;
+}
+
+#DIV div #dropDownList2 options{
+    background-color: rgb(157, 153, 153);
+}
